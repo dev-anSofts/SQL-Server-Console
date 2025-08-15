@@ -10,7 +10,7 @@ It allows you to start, stop, and restart services easily with a clean interface
 - Multi-server management *(planned)*
 
 ## Requirements
-- Windows 10/11
+- Windows 8/8.1/10/11 and Server versions, (tested from 2012 R2).
 - .NET Framework 4.7.2+
 - Administrative privileges to manage services
 
@@ -21,8 +21,8 @@ It allows you to start, stop, and restart services easily with a clean interface
 
 ## Usage
 1. Launch the program
-2. Select the desired SQL Server service from the list
-3. Use the **Start**, **Stop**, or **Restart** buttons
+2. Select the desired SQL Server service from the list and use the **Start**, **Stop** buttons.
+     Right click con the rows to set **Automatic**, **Manual** or **Disable** the autostart.
 
 ---
 
