@@ -11,7 +11,7 @@ It allows you to start, stop, and restart services easily with a clean interface
 
 ## Requirements
 - Windows 10/11
-- .NET Desktop Runtime 6.0+
+- .NET Framework 4.7.2+
 - Administrative privileges to manage services
 
 ## Installation
