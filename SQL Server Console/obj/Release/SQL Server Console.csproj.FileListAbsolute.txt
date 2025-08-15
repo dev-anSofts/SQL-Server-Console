@@ -1,0 +1,14 @@
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\bin\Release\SQL Server Console.exe.config
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\bin\Release\SQL Server Console.exe
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\bin\Release\SQL Server Console.pdb
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console.csproj.AssemblyReference.cache
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\MainWindow.baml
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\MainWindow.g.cs
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\App.g.cs
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console_MarkupCompile.cache
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console.g.resources
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL_Server_Console.Properties.Resources.resources
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console.csproj.GenerateResource.cache
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console.exe
+C:\Users\antho\source\repos\SQL Server Console\SQL Server Console\obj\Release\SQL Server Console.pdb

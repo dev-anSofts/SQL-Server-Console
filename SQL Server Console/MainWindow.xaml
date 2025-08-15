@@ -1,0 +1,61 @@
+﻿<Window x:Class="WpfSqlServiceController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SQL Service Controller" Height="280" Width="445"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" Icon="/SQLServicesConsoleicon.ico">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <!-- Aggiunta riga per la versione -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Riga per MSSQLSERVER -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,5"
+                    ContextMenuOpening="ServiceRow_ContextMenuOpening">
+            <TextBox x:Name="ServiceNameTextBox1" Width="250" IsReadOnly="True"
+                     Text="SQL Server (MSSQLSERVER)" />
+            <Button Content="Start" Width="80" Margin="5,0" Click="StartService_Click"
+                    Tag="MSSQLSERVER" />
+            <Button Content="Stop" Width="80" Margin="5,0" Click="StopService_Click"
+                    Tag="MSSQLSERVER" />
+        </StackPanel>
+
+        <!-- Riga per SQL Server Agent -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5"
+                    ContextMenuOpening="ServiceRow_ContextMenuOpening">
+            <TextBox x:Name="ServiceNameTextBox2" Width="250" IsReadOnly="True"
+                     Text="SQL Server Agent (SQLSERVERAGENT)" />
+            <Button Content="Start" Width="80" Margin="5,0" Click="StartService_Click"
+                    Tag="SQLSERVERAGENT" />
+            <Button Content="Stop" Width="80" Margin="5,0" Click="StopService_Click"
+                    Tag="SQLSERVERAGENT" />
+        </StackPanel>
+
+        <!-- Riga per SQL Server Browser -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,5"
+                    ContextMenuOpening="ServiceRow_ContextMenuOpening">
+            <TextBox x:Name="ServiceNameTextBox3" Width="250" IsReadOnly="True"
+                     Text="SQL Server Browser (SQLBrowser)" />
+            <Button Content="Start" Width="80" Margin="5,0" Click="StartService_Click"
+                    Tag="SQLBrowser" />
+            <Button Content="Stop" Width="80" Margin="5,0" Click="StopService_Click"
+                    Tag="SQLBrowser" />
+        </StackPanel>
+
+        <!-- Log output -->
+        <TextBox x:Name="OutputTextBox" Grid.Row="3" Margin="0,10,0,0"
+                 IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+
+        <!-- Label con la versione del programma, posizionata tra il bordo inferiore e il TextBox dei log -->
+        <Label Grid.Row="4" Content=" Version 1.0 © anSofts - 2025 " HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
