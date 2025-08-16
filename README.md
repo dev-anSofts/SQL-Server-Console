@@ -1,3 +1,5 @@
+[![Made with C#](https://img.shields.io/badge/Made_with-C%23-blue?logo=dotnet)](https://dotnet.microsoft.com/it-it/languages/csharp)
+[![Visit Developer Website](https://img.shields.io/badge/Visit_Developer_Website-anSofts-red)](https://ansofts.it)
 # SQL Server Console
 
 **SQL Server Console** is a C# WPF application designed to simplify Microsoft SQL Server service management.  
